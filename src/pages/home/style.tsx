@@ -1,6 +1,6 @@
-import { styled } from "@/styles/stitches.config.ts";
-import { Flex } from "@/styles/Global.tsx";
-import { Button } from "@/styles/Buttons.tsx";
+import { styled } from "@/styles/stitches.config";
+import { Flex } from "@/styles/Global";
+import { Button } from "@/styles/Buttons";
 import { css } from "@stitches/react";
 
 import meIlustration from "@/public/static/img/background/me-ilustration.svg";
