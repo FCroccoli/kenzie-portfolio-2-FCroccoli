@@ -1,5 +1,5 @@
-import { styled } from "@/styles/stitches.config.ts";
-import { Container, Flex } from "@/styles/Global.tsx";
+import { styled } from "@/styles/stitches.config";
+import { Container, Flex } from "@/styles/Global";
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Footer = styled("footer", {

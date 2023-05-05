@@ -5,12 +5,12 @@ import {
   ProjectStackTech,
   ProjectLink,
   ProjectLinks,
-} from "./style.tsx";
+} from "./style";
 
-import { Text } from "@/styles/Text.tsx";
+import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
 import { FaGithub, FaShare } from "react-icons/fa";
-import { userData } from "@/utils/userData.ts";
+import { userData } from "@/utils/userData";
 
 interface ReposType {
   id: number;

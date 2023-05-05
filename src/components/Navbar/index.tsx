@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useMedia from "use-media";
-import { userData } from "@/utils/userData.ts";
+import { userData } from "@/utils/userData";
 
 import {
   Navbar as NavbarWrapper,
@@ -8,12 +8,12 @@ import {
   LogoTipoText,
   NavbarLinks,
   NavbarMobileArea,
-} from "./style.tsx";
+} from "./style";
 
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { Button } from "@/styles/Buttons.tsx";
-import { Container, Flex } from "@/styles/Global.tsx";
+import { Button } from "@/styles/Buttons";
+import { Container, Flex } from "@/styles/Global";
 
 export interface MenuButtonOpen {
   open: Boolean;

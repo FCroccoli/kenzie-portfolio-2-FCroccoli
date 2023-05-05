@@ -1,6 +1,6 @@
-import { styled } from "@/styles/stitches.config.ts";
-import { Flex, Container } from "@/styles/Global.tsx";
-import { Button } from "@/styles/Buttons.tsx";
+import { styled } from "@/styles/stitches.config";
+import { Flex, Container } from "@/styles/Global";
+import { Button } from "@/styles/Buttons";
 
 export const Navbar = styled("nav", {
   background: "$grey0",

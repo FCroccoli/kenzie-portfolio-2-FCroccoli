@@ -1,7 +1,7 @@
 // Styles
-import { Container, Flex } from "@/styles/Global.tsx";
-import { Text } from "@/styles/Text.tsx";
-import { Button } from "@/styles/Buttons.tsx";
+import { Container, Flex } from "@/styles/Global";
+import { Text } from "@/styles/Text";
+import { Button } from "@/styles/Buttons";
 
 // Components
 import { Stack } from "@/components/Stack";
@@ -25,7 +25,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
-} from "./style.tsx";
+} from "./style";
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;

@@ -1,4 +1,4 @@
-import { styled } from "@/styles/stitches.config.ts";
+import { styled } from "@/styles/stitches.config";
 
 export const ContactSection = styled("section", {
   background: "$grey1",

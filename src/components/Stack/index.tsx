@@ -1,5 +1,5 @@
-import { StackCard } from "./style.tsx";
-import { Text } from "@/styles/Text.tsx";
+import { StackCard } from "./style";
+import { Text } from "@/styles/Text";
 import { IconType } from "react-icons/lib";
 
 interface StackProps {
