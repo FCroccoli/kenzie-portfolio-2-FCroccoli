@@ -1,5 +1,5 @@
-import { Container } from "@/styles/Global";
-import { Text } from "@/styles/Text";
+import { Container } from "@/styles/Global.tsx";
+import { Text } from "@/styles/Text.tsx";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 
 import {
@@ -10,7 +10,7 @@ import {
   ContactCard,
   ContactCardImage,
   ContactCardContent,
-} from "./style";
+} from "./style.tsx";
 
 import { FaWhatsapp, FaEnvelopeOpen, FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";

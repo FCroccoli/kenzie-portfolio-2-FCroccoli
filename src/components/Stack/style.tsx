@@ -1,6 +1,6 @@
-import { styled } from "../../styles/stitches.config";
+import { styled } from "../../styles/stitches.config.ts";
 import { keyframes } from "@stitches/react";
-import { Text } from "../../styles/Text";
+import { Text } from "../../styles/Text.tsx";
 
 export const scaleUp = keyframes({
   "0%": { transform: "translateY(15%)" },

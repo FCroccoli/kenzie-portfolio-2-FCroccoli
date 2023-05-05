@@ -10,7 +10,9 @@
       "@/styles/*": ["styles/*"],
       "@/pages/*": ["pages/*"],
       "@/public/*": ["public/*"],
-      "@/utils/*": ["utils/*"]
+      "@/utils/*": ["utils/*"],
+      "*.ts": ["*"],
+      "*.tsx": ["*"]
     },
     "skipLibCheck": true,
     "esModuleInterop": false,

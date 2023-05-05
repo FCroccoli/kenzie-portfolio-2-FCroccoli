@@ -1,10 +1,10 @@
-import { Container, Flex, Box } from "@/styles/Global";
-import { Text } from "@/styles/Text";
-import { Footer as FooterWrapper } from "./style";
-import { UserImage } from "@/pages/home/style";
-import { userData } from "@/utils/userData";
+import { Container, Flex, Box } from "@/styles/Global.tsx";
+import { Text } from "@/styles/Text.tsx";
+import { Footer as FooterWrapper } from "./style.tsx";
+import { UserImage } from "@/pages/home/style.tsx";
+import { userData } from "@/utils/userData.ts";
 import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
-import { Button } from "@/styles/Buttons";
+import { Button } from "@/styles/Buttons.tsx";
 // import { HandEffect } from "../HandEffect";
 
 export const Footer = (): JSX.Element => {

@@ -1,7 +1,7 @@
 // Styles
-import { Container, Flex } from "@/styles/Global";
-import { Text } from "@/styles/Text";
-import { Button } from "@/styles/Buttons";
+import { Container, Flex } from "@/styles/Global.tsx";
+import { Text } from "@/styles/Text.tsx";
+import { Button } from "@/styles/Buttons.tsx";
 
 // Components
 import { Stack } from "@/components/Stack";

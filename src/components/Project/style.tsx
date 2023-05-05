@@ -1,6 +1,6 @@
-import { styled } from "@/styles/stitches.config";
-import { Flex } from "@/styles/Global";
-import { Text } from "@/styles/Text";
+import { styled } from "@/styles/stitches.config.ts";
+import { Flex } from "@/styles/Global.tsx";
+import { Text } from "@/styles/Text.tsx";
 
 export const ProjectStack = styled(Flex, {
   margin: "1.25rem 0 1.25rem 0",
@@ -53,7 +53,7 @@ export const Project = styled("article", {
       },
 
       "&::before": {
-        content: 'New',
+        content: "New",
         position: "absolute",
         top: "5px",
         right: "-4rem",

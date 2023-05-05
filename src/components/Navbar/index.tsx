@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useMedia from "use-media";
-import { userData } from "@/utils/userData";
+import { userData } from "@/utils/userData.ts";
 
 import {
   Navbar as NavbarWrapper,
@@ -8,12 +8,12 @@ import {
   LogoTipoText,
   NavbarLinks,
   NavbarMobileArea,
-} from "./style";
+} from "./style.tsx";
 
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { Button } from "@/styles/Buttons";
-import { Container, Flex } from "@/styles/Global";
+import { Button } from "@/styles/Buttons.tsx";
+import { Container, Flex } from "@/styles/Global.tsx";
 
 export interface MenuButtonOpen {
   open: Boolean;
@@ -21,7 +21,6 @@ export interface MenuButtonOpen {
 }
 
 export const NavBar = (): JSX.Element => {
-
   const isWide = useMedia({ maxWidth: "991px" });
 
   document.title = userData.nameUser;
@@ -49,9 +48,7 @@ export const NavBar = (): JSX.Element => {
             </Button>
           )}
         </NavbarMobileArea>
-        <Flex>
-          {isWide ? open && <NavLinks /> : <NavLinks />}
-        </Flex>
+        <Flex>{isWide ? open && <NavLinks /> : <NavLinks />}</Flex>
       </Container>
     </NavbarWrapper>
   );
